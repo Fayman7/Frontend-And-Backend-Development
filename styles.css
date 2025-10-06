@@ -101,5 +101,6 @@ body{
 }
 
 .header__link :hover {
-    color: #d70fff;
+    background: rgb(11, 219, 56);
+    transform: translateY(-3px); /* Легкое поднятие элемента при наведении */
 }
