@@ -123,13 +123,14 @@ body{
     background-color: #ffe7ff;
     padding: 20px;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
 }
 
 .section__logo {
     font-family: "Arial Black", sans-serif;
-    font-size: 20px;
+    font-size: 24px;
+    font-style: italic;
     text-decoration: none;
     color: #000000;
 }
@@ -140,6 +141,7 @@ body{
     font-size: 16px;
     font-family: "Arial Black", sans-serif;
     font-style: italic;
+    margin-left: auto;
 }
 
 .section__buton {
