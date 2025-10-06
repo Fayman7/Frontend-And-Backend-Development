@@ -30,18 +30,10 @@ button, [type="submit"] {
  outline-offset:2px;
 }
 
-button:hover { filter: brightness(0.95); }
-:disabled, [aria-disabled="true"] { opacity: .6; cursor: not-allowed; }
-/* Подсветка ошибочных полей (установите aria-invalid="true") */
-[aria-invalid="true"] { border-color: #b00020; }
-
-html{ scroll-behavior:smooth; } /* Плавная прокрутка к #якорю */
-:target{ outline:2px dashed var(--color-primary); outline-offset:4px; } /*Подсветка цели */
-
 :root{
  /* Палитра */
  --color-bg:#fff; --color-fg:#0b0b0b; --color-muted:#666;
- --color-primary:#0a84ff; --color-danger:#b00020;
+ --color-primary:#08df22; --color-danger:#b00020;
  /* Типографика и размеры */
  --font-body:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
  --space-1:4px; --space-2:8px; --space-3:16px; --space-4:24px; --space5:40px;
@@ -54,6 +46,17 @@ body.theme-dark{
  --color-bg:#0b0b0b; --color-fg:#f5f5f5; --color-muted:#aaa;
  --color-primary:#6aa2ff;
 }
+
+button:hover { filter: brightness(0.95); }
+:disabled, [aria-disabled="true"] { opacity: .6; cursor: not-allowed; }
+/* Подсветка ошибочных полей (установите aria-invalid="true") */
+[aria-invalid="true"] { border-color: #b00020; }
+
+html { scroll-behavior:smooth; } /* Плавная прокрутка к #якорю */
+:target {
+    outline:2px dashed var(--color-primary);
+    outline-offset:4px;
+} /*Подсветка цели */
 
 /* Reset-минимум — подробнее в 1.8 */
 *{ box-sizing:border-box; }
@@ -133,7 +136,6 @@ body{
     font-style: italic;
     text-decoration: none;
     color: #000000;
-    margin-left: 40px;
 }
 
 .section__describe {
@@ -141,6 +143,7 @@ body{
     color: #2e2433;
     font-size: 16px;
     font-family: "Arial", sans-serif;
+    margin-left: 40px;
 }
 
 .section__link {
@@ -149,6 +152,7 @@ body{
     font-size: 16px;
     font-family: "Arial Black", sans-serif;
     font-style: italic;
+    margin-left: 40px;
 }
 
 .section__buton {
@@ -156,4 +160,5 @@ body{
     color: #2d2d2d;
     border: none;
     cursor: pointer;
+    margin-left: 40px;
 }
