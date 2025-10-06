@@ -125,14 +125,22 @@ body{
     display: flex;
     align-items: start;
     justify-content: center;
+    flex-direction: column;
 }
 
-.section__logo {
+.section__title {
     font-family: "Arial Black", sans-serif;
     font-size: 24px;
     font-style: italic;
     text-decoration: none;
     color: #000000;
+}
+
+.section__describe {
+    text-decoration: none;
+    color: #2e2433;
+    font-size: 16px;
+    font-family: "Arial", sans-serif;
 }
 
 .section__link {
@@ -141,7 +149,6 @@ body{
     font-size: 16px;
     font-family: "Arial Black", sans-serif;
     font-style: italic;
-    margin-left: auto;
 }
 
 .section__buton {
