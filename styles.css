@@ -98,18 +98,8 @@ body{
     text-decoration: none;
     color: #000000;
     font-size: 20px;
+}
 
-    a:visited {
-    color: rgb(255, 255, 255);
-    }
-
-    a:hover {
-    color: rgb(139, 139, 139);
-    text-decoration: underline;
-    }
-
-    a:active {
-    color: rgb(255, 0, 217);
-    opacity: 0.7;
-    }
+.header__link :hover {
+    color: #d70fff;
 }
