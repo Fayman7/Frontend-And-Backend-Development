@@ -1,0 +1,39 @@
+.header {
+    background-color: #f3d9ff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: #333;
+}
+
+.header__nav {
+    display: flex;
+}
+
+.header__menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header__menu-item {
+    margin-left: 20px;
+}
+
+.header__link {
+    text-decoration: none;
+    color: #2f063e;
+    font-size: 16px;
+    
+    /* Модификатор для активного состояния */
+    &--active {
+        color: #007bff;
+        font-weight: bold;
+    }
+}
