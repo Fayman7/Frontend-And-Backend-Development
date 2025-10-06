@@ -25,13 +25,18 @@ button, [type="submit"] {
  cursor: pointer;
 }
 /* Состояния: клавиатура/мышь/ошибки */
-:where(input, select, textarea, button):focus-visible {
- outline: 2px solid #9900ff; outline-offset: 2px;
+:where(a,button,input,select,textarea):focus-visible{
+ outline:2px solid var(--color-primary);
+ outline-offset:2px;
 }
+
 button:hover { filter: brightness(0.95); }
 :disabled, [aria-disabled="true"] { opacity: .6; cursor: not-allowed; }
 /* Подсветка ошибочных полей (установите aria-invalid="true") */
 [aria-invalid="true"] { border-color: #b00020; }
+
+html{ scroll-behavior:smooth; } /* Плавная прокрутка к #якорю */
+:target{ outline:2px dashed var(--color-primary); outline-offset:4px; } /*Подсветка цели */
 
 :root{
  /* Палитра */
@@ -105,7 +110,6 @@ body{
 
 .header__link:hover {
     background: rgb(255, 240, 253);
-    transform: translateY(-10px); /* Легкое поднятие элемента при наведении */
 }
 
 .header__link:active {
