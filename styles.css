@@ -71,6 +71,8 @@ body{
 .section{ padding-block:var(--space-5); }
 .section__title{ margin:0 0 var(--space-3); }
 
+
+/* #HEADER */
 .header {
     background-color: #ffc8ff;
     padding: 20px;
@@ -114,4 +116,35 @@ body{
 
 .header__link:active {
     background: #ffc8ff;
+}
+
+/* #SECTION */
+.section {
+    background-color: #ffe7ff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section__logo {
+    font-family: "Arial Black", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.section__link {
+    text-decoration: none;
+    color: #2e2433;
+    font-size: 16px;
+    font-family: "Arial Black", sans-serif;
+    font-style: italic;
+}
+
+.section__buton {
+    background: #a482a8;
+    color: #2d2d2d;
+    border: none;
+    cursor: pointer;
 }
