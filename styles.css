@@ -71,11 +71,13 @@ body{
     padding: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .header__logo {
+    font-family: "Arial Black", sans-serif;
     font-size: 24px;
+    font-style: italic;
     text-decoration: none;
     color: #000000;
 }
@@ -100,7 +102,7 @@ body{
     font-size: 20px;
 }
 
-.header__link :hover {
+.header__link:hover {
     background: rgb(11, 219, 56);
     transform: translateY(-3px); /* Легкое поднятие элемента при наведении */
 }
