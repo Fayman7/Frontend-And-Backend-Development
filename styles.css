@@ -123,6 +123,14 @@ body{
     color: #ffc8ff;
 }
 
+.header__link-this-page {
+    text-decoration: none;
+    background: #000000;
+    color: #ffc8ff;
+    font-size: 16px;
+    font-family: "Arial Black", sans-serif;
+}
+
 /* #SECTION */
 .section {
     background-color: #ffe7ff;
