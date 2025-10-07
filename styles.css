@@ -137,8 +137,8 @@ body{
 /* TITLE */
 .title {
     background-color: #ffe7ff;
-    margin-left: 10px;
     padding: 0px;
+    margin-left: 10px;
     align-items: start;
     justify-content: center;
 }
