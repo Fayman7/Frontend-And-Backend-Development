@@ -136,8 +136,6 @@ body{
 /* TITLE */
 .hero {
     background-color: #ffe7ff;
-    padding: 0px;
-    margin: 0px;
     margin-left: 10px;
     align-items: start;
     justify-content: center;
@@ -146,6 +144,12 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 512px;
+    padding: clamp(2rem, 6vw, 6rem) 1rem;
+    border-radius: var(--radius);
+    margin: var(--space-4) 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 /* SECTION */
