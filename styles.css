@@ -79,7 +79,7 @@ body{
 .section__title{ margin:0 0 var(--space-3); }
 
 
-/* #HEADER */
+/* HEADER */
 .header {
     background-color: #ffc8ff;
     padding: 20px;
@@ -134,7 +134,7 @@ body{
     font-family: "Arial Black", sans-serif;
 }
 
-/* #SECTION */
+/* SECTION */
 .section {
     background-color: #ffe7ff;
     padding: 20px;
@@ -174,4 +174,29 @@ body{
     border: none;
     cursor: pointer;
     margin-left: 40px;
+}
+
+/* BREADCRUMBS */
+
+.breadcrumbs {
+    background-color: #ffd7ff;
+    padding: 20px;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.breadcrumbs__link {
+    text-decoration: none;
+    color: #2e2433;
+    font-size: 16px;
+    font-family: "Arial Black", sans-serif;
+    font-style: italic;
+}
+
+.breadcrumbs__current {
+    color: #7408aa;
+    font-size: 12px;
+    font-family: "Arial Black", sans-serif;
 }
