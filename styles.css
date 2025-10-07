@@ -119,7 +119,8 @@ body{
 }
 
 .header__link:active {
-    background: #ffc8ff;
+    background: #000000;
+    color: #ffc8ff;
 }
 
 /* #SECTION */
