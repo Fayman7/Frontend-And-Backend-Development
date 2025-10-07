@@ -54,9 +54,12 @@ button:hover { filter: brightness(0.95); }
 [aria-invalid="true"] { border-color: #b00020; }
 
 html { scroll-behavior:smooth; } /* Плавная прокрутка к #якорю */
+
 :target {
     outline:2px dashed var(--color-primary);
     outline-offset:4px;
+    transform: scale(1.02);
+    transition: 0.3s ease;
 } /*Подсветка цели */
 
 /* Reset-минимум — подробнее в 1.8 */
