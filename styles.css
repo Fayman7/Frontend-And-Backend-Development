@@ -78,18 +78,6 @@ body{
 .section{ padding-block:var(--space-5); }
 .section__title{ margin:0 0 var(--space-3); }
 
-.hero{
- background-image:
- linear-gradient(to top, rgba(0,0,0,.55), rgba(0,0,0,.15)),
- image-set(
- url("assets/block.jpg") 1x, /* обычные экраны */
- url("assete/star.jpg") 2x /* плотные экраны */
- );
- background-position:center;
- background-size:cover;
- background-repeat:no-repeat;
-}
-
 /* HEADER */
 .header {
     background-color: #ffc8ff;
@@ -146,13 +134,17 @@ body{
 }
 
 /* TITLE */
-.title {
+.hero {
     background-color: #ffe7ff;
     padding: 0px;
     margin: 0px;
     margin-left: 10px;
     align-items: start;
     justify-content: center;
+    background-image: linear-gradient(to top, rgba(0,0,0,.55), rgba(0,0,0,.15)), image-set( url("assets/block.jpg") 1x, /* обычные экраны */ url("assete/star.jpg") 2x /* плотные экраны */);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* SECTION */
