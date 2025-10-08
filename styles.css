@@ -222,4 +222,5 @@ body{
 .media {
     display: flex;
     justify-content: center;
+    background-color: #ffe7ff;
 }
