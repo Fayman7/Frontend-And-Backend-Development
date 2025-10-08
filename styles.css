@@ -218,3 +218,8 @@ body{
     font-size: 12px;
     font-family: "Arial Black", sans-serif;
 }
+
+.media {
+    display: flex;
+    justify-content: center;
+}
