@@ -223,4 +223,5 @@ body{
     display: flex;
     justify-content: center;
     background-color: #ffe7ff;
+    aspect-ratio: auto;
 }
